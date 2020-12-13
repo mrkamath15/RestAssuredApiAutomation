@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Suite">
+    <test name="Get Requests">
+        <classes>
+            <class name="testCases.GetRequestTest" />
+            <class name="testCases.GetAllData"></class>
+            <class name="testCases.MultipleHeaders"></class>
+            <class name="testCases.LoggingTest"></class>
+            <class name="testCases.PostTest"></class>
+        </classes>
+    </test>
+</suite>
